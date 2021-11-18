@@ -95,7 +95,7 @@ const ManageAllOrder = () => {
                                   <td>{user.email}</td>
                                   <td>{user.date}</td>
                                   <td>{user.status}</td>
-                                  <td> <Button onClick={() => handleApproved(user)} className="btn btn-regular">✔️</Button> <Button onClick={() => handleDelete(user._id)} className="btn btn-regular">❌</Button> </td>
+                                  <td> <Button onClick={() => handleApproved(user)} className="btn btn-regular">add</Button> <Button onClick={() => handleDelete(user._id)} className="btn btn-regular">delete</Button> </td>
                               </tr>
                           )
                       }
